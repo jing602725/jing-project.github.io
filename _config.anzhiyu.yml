@@ -69,7 +69,13 @@ aside:
       link: https://github.com/jing602725
   card_announcement:
     enable: true
-    content: 欢迎来到我的博客！
+    content: |
+      <div style="text-align: center;">
+        <p>👋 欢迎来到我的博客！</p>
+        <p>📝 这里记录技术学习与生活感悟</p>
+        <p>🔗 欢迎交换友链</p>
+        <p>⭐ 觉得不错就点个 Star 吧！</p>
+      </div>
   card_recent_post:
     enable: true
     limit: 5
@@ -131,6 +137,36 @@ reward:
   # WeChat: /img/wechat.png
   # text: 你的打赏是我创作的动力！
 
+# 首页顶部横幅
+home_top:
+  enable: true
+  timemode: date
+  title: 万物可爱
+  subTitle: 热爱生活，记录美好。
+  siteText: Jing's Blog
+  category:
+    - name: 技术
+      path: /categories/技术/
+      shadow: var(--anzhiyu-shadow-blue)
+      class: blue
+      icon: anzhiyu-icon-dove
+    - name: 生活
+      path: /categories/生活/
+      shadow: var(--anzhiyu-shadow-green)
+      class: green
+      icon: anzhiyu-icon-book
+  default_descr: 再怎么看我也不知道怎么描述它的啦！
+  banner:
+    tips: 欢迎来访
+    title: Jing's Blog
+    image: /img/default_cover.jpg
+
+# 404 页面
+error_404:
+  enable: true
+  subtitle: "迷路了？试试站内搜索吧！"
+  background: /img/404.jpg
+
 # 文章页
 post:
   default:
@@ -168,7 +204,7 @@ comments:
 
 twikoo:
   enable: false  # 部署后端后改为 true
-  envId: ''  # 填入你的 Twikoo 环境 ID
+  envId: ''  # 填入你的 Twikoo 环境 ID（如 https://xxx.vercel.app）
   region:
   visitor: true
   option:
