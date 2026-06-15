@@ -93,6 +93,18 @@ aside:
     post_count: true
     last_push_date: true
 
+# 不蒜子统计
+busuanzi:
+  enable: true
+  site_uv: true
+  site_pv: true
+  page_pv: true
+
+# 运行时间
+runtimeshow:
+  enable: true
+  publish_date: 2026/06/15
+
 # 深色模式
 darkmode:
   enable: true
@@ -146,3 +158,17 @@ wordcount:
   post_wordcount: true
   min2read: true
   total_wordcount: true
+
+# 评论系统 - Twikoo
+# 请先部署 Twikoo 后端：https://twikoo.js.org/quick-start.html
+# 部署后将 envId 替换为你的环境 ID
+comments:
+  use: twikoo
+  text: true
+
+twikoo:
+  enable: false  # 部署后端后改为 true
+  envId: ''  # 填入你的 Twikoo 环境 ID
+  region:
+  visitor: true
+  option:
