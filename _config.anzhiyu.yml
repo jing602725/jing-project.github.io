@@ -6,13 +6,16 @@ menu:
     分类: /categories/ || anzhiyu-icon-shapes
     标签: /tags/ || anzhiyu-icon-tags
 
+  友链:
+    友人帐: /link/ || anzhiyu-icon-link
+
   关于:
     关于本人: /about/ || anzhiyu-icon-paper-plane
     随便逛逛: javascript:toRandomPost() || anzhiyu-icon-shoe-prints1
 
 # 社交图标
 social:
-  Github: https://github.com/1946914722decade || anzhiyu-icon-github
+  Github: https://github.com/jing602725 || anzhiyu-icon-github
 
 # 搜索
 local_search:
@@ -63,7 +66,7 @@ aside:
       enable: true
       icon: anzhiyu-icon-github
       text: Follow Me
-      link: https://github.com/1946914722decade
+      link: https://github.com/jing602725
   card_announcement:
     enable: true
     content: 欢迎来到我的博客！
