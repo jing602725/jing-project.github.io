@@ -1,0 +1,8 @@
+# robots.txt
+User-agent: *
+Allow: /
+Disallow: /js/
+Disallow: /css/
+Disallow: /img/
+
+Sitemap: https://1946914722decade.github.io/jing-project.github.io/sitemap.xml

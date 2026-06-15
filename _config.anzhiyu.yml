@@ -1,0 +1,145 @@
+# Anzhiyu Theme Config Override
+# 菜单设置
+menu:
+  文章:
+    隧道: /archives/ || anzhiyu-icon-box-archive
+    分类: /categories/ || anzhiyu-icon-shapes
+    标签: /tags/ || anzhiyu-icon-tags
+
+  关于:
+    关于本人: /about/ || anzhiyu-icon-paper-plane
+    随便逛逛: javascript:toRandomPost() || anzhiyu-icon-shoe-prints1
+
+# 社交图标
+social:
+  Github: https://github.com/1946914722decade || anzhiyu-icon-github
+
+# 搜索
+local_search:
+  enable: true
+  preload: true
+
+# 头像
+avatar:
+  img: /img/avatar.jpg
+  effect: false
+
+# 代码块
+highlight_theme: mac
+highlight_copy: true
+highlight_lang: true
+highlight_shrink: false
+
+# 文章显示
+cover:
+  index_enable: true
+  aside_enable: true
+  archives_enable: true
+  position: both
+
+# 页脚
+footer:
+  owner:
+    enable: true
+    since: 2026
+  custom_text:
+  copyright: true
+
+# 侧边栏
+aside:
+  enable: true
+  hide: false
+  button: true
+  mobile: true
+  position: right
+  display:
+    archive: true
+    tag: true
+    category: true
+  card_author:
+    enable: true
+    description: 分享技术与生活
+    button:
+      enable: true
+      icon: anzhiyu-icon-github
+      text: Follow Me
+      link: https://github.com/1946914722decade
+  card_announcement:
+    enable: true
+    content: 欢迎来到我的博客！
+  card_recent_post:
+    enable: true
+    limit: 5
+    sort: date
+  card_categories:
+    enable: true
+    limit: 8
+    expand: none
+  card_tags:
+    enable: true
+    limit: 40
+    color: true
+  card_archives:
+    enable: true
+    type: monthly
+    format: MMMM YYYY
+    order: -1
+    limit: 8
+  card_webinfo:
+    enable: true
+    post_count: true
+    last_push_date: true
+
+# 深色模式
+darkmode:
+  enable: true
+  button: true
+  autoChangeMode: false
+
+# 图片懒加载
+lazyload:
+  enable: true
+  field: site
+  placeholder:
+  blur: true
+  progressive: true
+
+# 右键菜单
+rightmenu:
+  enable: true
+  commentBarrage: false
+
+# 打赏 (disabled - no QR code images provided)
+reward:
+  enable: false
+  # QQ: /img/qq.png
+  # WeChat: /img/wechat.png
+  # text: 你的打赏是我创作的动力！
+
+# 文章页
+post:
+  default:
+    top_img: true
+    cover: /img/default_cover.jpg
+  meta:
+    date: true
+    updated: false
+    categories: true
+    tags: true
+  copyright:
+    enable: true
+    limit: 50
+    author:
+      default: Jing
+  toc:
+    enable: true
+    list_number: true
+    expand: false
+    style_simple: false
+
+# 字数统计
+wordcount:
+  enable: true
+  post_wordcount: true
+  min2read: true
+  total_wordcount: true
