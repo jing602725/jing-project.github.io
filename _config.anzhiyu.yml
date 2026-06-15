@@ -196,15 +196,13 @@ wordcount:
   total_wordcount: true
 
 # 评论系统 - Twikoo
-# 请先部署 Twikoo 后端：https://twikoo.js.org/quick-start.html
-# 部署后将 envId 替换为你的环境 ID
 comments:
   use: twikoo
   text: true
 
 twikoo:
-  enable: false  # 部署后端后改为 true
-  envId: ''  # 填入你的 Twikoo 环境 ID（如 https://xxx.vercel.app）
+  enable: true
+  envId: 'https://jing-project.vercel.app'
   region:
   visitor: true
   option:
